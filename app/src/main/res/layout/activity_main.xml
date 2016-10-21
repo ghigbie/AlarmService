@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/mainLayout">
+    <TextView
+        android:id="@+id/zzz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/z"
+        android:textSize="100sp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_time"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            />
+
+        <TextView
+            android:id="@+id/hoursText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_digits"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            />
+
+        <TextView
+            android:id="@+id/dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colon"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            />
+
+        <TextView
+            android:id="@+id/minsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_digits"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_hours"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/editTextMins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_mins"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_txt"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <Button
+            android:id="@+id/startAlarmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_txt"
+            android:layout_margin="@dimen/button_margin"/>
+
+        <Button
+            android:id="@+id/stopAlarmButton"
+            android:onClick="onClickStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_other_txt"
+            android:layout_margin="@dimen/button_margin"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/snooze"
+        android:onClick="onClickSnooze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/snooze"
+        android:layout_margin="@dimen/button_margin"
+        />
+
+</LinearLayout>

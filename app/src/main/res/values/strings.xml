@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alarm Service</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alarm_txt">Alarm Example</string>
+    <string name="btn_txt">Set Alarm</string>
+    <string name="btn_other_txt">Stop Alarm</string>
+    <string name="current_time">Current Time:</string>
+    <string name="time_digits">00</string>
+    <string name="hint_hours">Enter hour </string>
+    <string name="hint_mins">Enter min </string>
+    <string name="colon">:</string>
+    <string name="snooze">Snooze</string>
+    <string name="z">ZZZZZ</string>
+    
+</resources>

@@ -1,0 +1,7 @@
+#Wed Oct 05 17:14:57 EDT 2016
+base.0=/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_446156e74d91fc331e388bf6c1e673512a13f695
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_821ed81618a0c706e7d8fda70e23974c5d87b11e/classes.dex
+base.1=/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_821ed81618a0c706e7d8fda70e23974c5d87b11e
+file.0=/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_446156e74d91fc331e388bf6c1e673512a13f695/classes.dex

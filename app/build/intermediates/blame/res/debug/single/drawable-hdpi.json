@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/intermediates/res/merged/debug/drawable-hdpi/alarm_clock.png",
+        "source": "/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/src/main/res/drawable-hdpi/alarm_clock.png"
+    }
+]

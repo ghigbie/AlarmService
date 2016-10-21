@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="96077296840011"
+    token="3207288665496767787"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="41" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="42" />
+    <task
+        name="verifier"
+        duration="6" />
+
+    <artifact
+        location="/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="96077296840011"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/geogehigbie/Documents/Android TTT projects/AlarmService/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
